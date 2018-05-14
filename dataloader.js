@@ -461,7 +461,7 @@ AmCharts.addInitHandler( function( chart ) {
       } catch ( e ) {
         curtain.style.background = 'rgb(255, 255, 255)';
       }
-      curtain.innerHTML = '<div style="display: table-cell; vertical-align: middle;">' + msg + '</div>';
+      curtain.innerHTML = '<div class="loader-curtain">' + msg + '</div>';
     } else {
       curtain.innerHTML = msg;
     }
